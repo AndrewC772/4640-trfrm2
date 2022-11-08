@@ -24,3 +24,7 @@ This should install nginx on the digital ocean droplets tagged "Web" and run the
 
 1. ensure digitalocean plugin is installed with "ansible-galaxy collection install community.digitalocean"
 2. once that is confirmed and the api token is set with the DO_API_TOKEN you can then run "ansible-playbook nginx_setup.yml -u root"
+
+# Completed
+It should appear as below once completed
+![Alt text](./end-result.png "Completed Result")
