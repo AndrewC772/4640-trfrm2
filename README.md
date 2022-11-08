@@ -5,7 +5,7 @@
 
 # If the ssh key name needs to be changed:
 1. go to line 19 of "/dev/main.tf" change "name = "River"" to "name = <Insert key name here>"
-2. Make sure that "/mgmt/inventory/group_vars/all" has line 3 specifying the file River changes as well
+2. Make sure that "/mgmt/inventory/group_vars/all" has line 3 "ansible_ssh_private_key_file: River" changed as well
 
 # API key must be set for ansible
 1. create a file containing " export DO_API_TOKEN=< INSERT API KEY HERE >" and source it
