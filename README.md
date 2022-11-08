@@ -1,6 +1,7 @@
 # 4640-trfrm2
 
 Terraform must be installed before this can be run. Installation Instruction: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+
 Ansible must be installed as well. Installation Instructions: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 
 # This operates assuming the ssh key "River" is being used and that a project named "4640_labs" was created.
