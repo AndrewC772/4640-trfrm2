@@ -6,6 +6,7 @@ Ansible must be installed as well. Installation Instructions: https://docs.ansib
 
 # This operates assuming the ssh key "River" is being used and that a project named "4640_labs" was created.
 1. This assumes the key is found in the directories "/dev/River" and "/mgmt/River"
+2. If the project on digital ocean is named differently change line 25 of "/dev/main.tf" to "name = "<Insert Project Name Here>""
 
 # If the ssh key name needs to be changed:
 1. go to line 19 of "/dev/main.tf" change "name = "River"" to "name = <Insert key name here>"
