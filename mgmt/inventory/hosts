@@ -1,0 +1,8 @@
+[local]
+localhost	ansible_connection=local
+
+#[WebRocky]
+#164.92.91.189
+
+#[UbuntuPodman]
+#137.184.186.31

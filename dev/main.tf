@@ -45,7 +45,7 @@ resource "digitalocean_droplet" "web" {
   name     = "web-${count.index + 1}"
   count    = var.droplet_count
   tags     = [digitalocean_tag.do_tag.id]
-  region   = "sfo3"
+  region   = var.region
   size     = "s-1vcpu-512mb-10gb"
   vpc_uuid = digitalocean_vpc.web_vpc.id
   ssh_keys = [data.digitalocean_ssh_key.lab_ssh_key.id]

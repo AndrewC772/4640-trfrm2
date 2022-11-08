@@ -1,6 +1,11 @@
 .env
 .terraform
 4640_Lab
+/dev/terraform.tfstate
+/dev/terraform.tfstate.*
+/dev/*.terraform.*
 /mgmt/do_token
 /mgmt/River
 /mgmt/River.pub
+/dev/River
+/dev/River.pub
