@@ -1,5 +1,7 @@
 # 4640-trfrm2
 
+Terraform must be installed before this can be run. Installation Instruction: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+
 # This operates assuming the ssh key "River" is being used and that a project named "4640_labs" was created.
 1. This assumes the key is found in the directories "/dev/River" and "/mgmt/River"
 
